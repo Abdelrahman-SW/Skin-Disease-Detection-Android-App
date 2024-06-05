@@ -4,13 +4,13 @@
 <p align="center"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg" alt="android" width="40" height="40"/> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </p>
 <h2 align="left">Tools & Technloges Used in The App : </h2>
 
--- Tenser Flow : Train and Deploy Tf-Lite Model For Detect Skin Diseases
+-- Tenser Flow : Train and Deploy Tf-Lite Model For Detect Skin Diseases ✔️
 
--- Firebase : For Auth (Login & register & Phone Number Verification)
+-- Firebase : For Auth (Login & register & Phone Number Verification) ✔️
 
--- Google Maps/Places SDK : For Select User Location & Finding nearby (Dermatologist, hospitals, and pharmacies) from the user location
+-- Google Maps/Places SDK : For Select User Location & Finding nearby (Dermatologist, hospitals, and pharmacies) from the user location ✔️
 
--- Other Tools : Room Database , Work Manager , ..
+-- Other Tools : Room Database , Work Manager , .. ✔️
 
 <h1 align="center">App Screenshots : </h1>
 <p align="center">
@@ -113,3 +113,10 @@ Like finding nearby (Dermatologist, hospitals, and pharmacies) from the user loc
 <p align="center">
   <img src="https://github.com/Abdelrahman-SW/Skin-Disease-Detection-Android-App/assets/171629145/9da1a4d0-2b2f-4e69-bab4-b0347a592569" width="840" height="720">
 </p>
+
+<br></br>
+
+<h2 align="left">And More .. !</h2>
+
+The App has more feauters than what i showed like : Medical Follow up , Taking medicine reminder , Contact With Doctors , and more .. !
+ps : This App Was My Graduation Project At Faculty Of Computer Science At Ain Shams University With Excellent Grade ✅✅✅
