@@ -2,6 +2,11 @@
 <h3 align="center" > --- An Android App  (Java) In (Arabic) Language  ---   </h3>
 
 <p align="center"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg" alt="android" width="40" height="40"/> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </p>
+
+<h2 align="left">About :</h2>
+
+Skin Diseases Detector Is An Android App That Let u take / upload photo Of Your skin An The App will detect Using Our trained Tf-Lite Model Whether U have a Skin Disease Or not ,, not only that see more dowm .. ⬇️
+
 <h2 align="left">Tools & Technloges Used in The App : </h2>
 
 -- Tenser Flow : Train and Deploy Tf-Lite Model For Detect Skin Diseases 
