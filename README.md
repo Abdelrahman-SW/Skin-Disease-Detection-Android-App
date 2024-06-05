@@ -4,13 +4,13 @@
 <p align="center"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg" alt="android" width="40" height="40"/> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </p>
 <h2 align="left">Tools & Technloges Used in The App : </h2>
 
--- Tenser Flow : Train and Deploy Tf-Lite Model For Detect Skin Diseases ✔️
+-- Tenser Flow : Train and Deploy Tf-Lite Model For Detect Skin Diseases 
 
--- Firebase : For Auth (Login & register & Phone Number Verification) ✔️
+-- Firebase : For Auth (Login & register & Phone Number Verification) 
 
--- Google Maps/Places SDK : For Select User Location & Finding nearby (Dermatologist, hospitals, and pharmacies) from the user location ✔️
+-- Google Maps/Places SDK : For Select User Location & Finding nearby (Dermatologist, hospitals, and pharmacies) from the user location 
 
--- Other Tools : Room Database , Work Manager , .. ✔️
+-- Other Tools : Room Database , Work Manager , .. 
 
 <h1 align="center">App Screenshots : </h1>
 <p align="center">
