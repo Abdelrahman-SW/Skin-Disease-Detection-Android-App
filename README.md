@@ -6,9 +6,9 @@
 
 -- Tenser Flow : Train and Deploy Tf-Lite Model For Detect Skin Diseases
 
--- Firebase : For Auth (Login & register & Phone Verification)
+-- Firebase : For Auth (Login & register & Phone Number Verification)
 
--- Google Maps SDK : For Select User Location & Finding nearby (Dermatologist, hospitals, and pharmacies) from the user location
+-- Google Maps/Places SDK : For Select User Location & Finding nearby (Dermatologist, hospitals, and pharmacies) from the user location
 
 -- Other Tools : Room Database , Work Manager , ..
 
