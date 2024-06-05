@@ -108,6 +108,12 @@ Like finding nearby (Dermatologist, hospitals, and pharmacies) from the user loc
 
 <br><br>
 
+<p align="center">
+  <img src="https://github.com/Abdelrahman-SW/Skin-Disease-Detection-Android-App/assets/171629145/f9532bb7-0816-49a1-ba7d-4c175754d95f" width="320" height="640">
+</p>
+
+<br><br>
+
 
 <p align="center">
   <img src="https://github.com/Abdelrahman-SW/Skin-Disease-Detection-Android-App/assets/171629145/f6bac3f4-2e7a-4ffe-9f16-15f28ff49b06" width="840" height="720">
