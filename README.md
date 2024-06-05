@@ -5,7 +5,7 @@
 
 <h2 align="left">About :</h2>
 
-Skin Diseases Detector Is An Android App That Let u take / upload photo Of Your skin An The App will detect Using Our trained Tf-Lite Model Whether U have a Skin Disease Or not ,, not only that see more dowm .. ⬇️
+Skin Diseases Detector Is An Android App That Let u take / upload photo Of Your skin And The App will detect Using Our trained Tf-Lite Model Whether U have a Skin Disease Or not ,, not only that see more dowm .. ⬇️
 
 <h2 align="left">Tools & Technloges Used in The App : </h2>
 
