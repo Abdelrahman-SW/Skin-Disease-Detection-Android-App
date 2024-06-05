@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/background"
+    android:padding="16dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="60dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_sms__1_" />
+
+    <EditText
+        android:layout_marginTop="32dp"
+        android:inputType="phone"
+        android:imeOptions="actionNext"
+        android:drawablePadding="4dp"
+        android:id="@+id/PhoneNum"
+        android:paddingRight="16dp"
+        android:paddingLeft="16dp"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp"
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:drawableStart="@drawable/ic_baseline_phone_24"
+        android:background="@drawable/edit_shap"
+        android:hint="أدخل رقم الهاتف" />
+    <Button
+        android:padding="12dp"
+        android:id="@+id/Send"
+        android:layout_width="163dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/btnedit"
+        android:text="إرسال"
+        android:layout_marginBottom="72dp"
+        android:textAlignment="center"
+        android:textSize="16sp" />
+
+    <Button
+        android:padding="12dp"
+        android:id="@+id/Continue"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="26dp"
+        android:background="@drawable/question_shape"
+        android:text="المتابعة"
+        android:textAlignment="center"
+        android:textSize="16sp" />
+
+</LinearLayout>

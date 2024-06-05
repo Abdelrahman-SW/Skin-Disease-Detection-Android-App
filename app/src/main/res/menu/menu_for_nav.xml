@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="@android:layout/list_content">
+    <item android:title="أذهب إلي">
+        <menu>
+
+
+            <item
+                android:id="@+id/Thedoctors"
+                android:icon="@drawable/ic_doctor"
+                android:title="دكاترة الجلدية القريبين منك" />
+
+
+            <item
+                android:id="@+id/hospitals"
+                android:icon="@drawable/ic_ambulance"
+                android:title="المستشفيات القريبة منك" />
+
+            <item
+                android:id="@+id/pharmacy"
+                android:icon="@drawable/ic_pharmacist"
+                android:title="الصيدليات القريبة منك" />
+
+<!--            <item-->
+<!--                android:id="@+id/world"-->
+<!--                android:icon="@drawable/ic_worldwide__1_"-->
+<!--                android:title="تفقد أماكن المصابين" />-->
+
+        </menu>
+    </item>
+    <item android:title="الإجراءت">
+        <menu>
+            <item android:id="@+id/sign_out"
+                android:icon="@drawable/ic_log_out"
+                android:title="تسجيل الخروج" />
+            <item
+                android:id="@+id/Doctor"
+                android:icon="@drawable/ic_doctor__2_"
+                android:title="تواصل مع الطبيب" />
+
+            <item
+                android:id="@+id/feedback"
+                android:icon="@drawable/ic_baseline_email_24"
+                android:title="سجل رأيك" />
+
+            <item
+                android:id="@+id/Rate"
+                android:icon="@drawable/ic_star"
+                android:title="تقييم التطبيق" />
+        </menu>
+    </item>
+    <item android:title="تابعنا">
+        <menu>
+            <item
+                android:id="@+id/twitter"
+                android:icon="@drawable/ic_twitter"
+                android:title="تويتر" />
+
+            <item
+                android:id="@+id/Facebook"
+                android:icon="@drawable/ic_facebook"
+                android:title="فيس بوك" />
+
+
+
+        </menu>
+    </item>
+</menu>

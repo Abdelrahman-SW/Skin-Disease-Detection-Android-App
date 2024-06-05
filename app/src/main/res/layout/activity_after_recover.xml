@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/background"
+    android:padding="16dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:layout_marginRight="12dp"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_patient" />
+
+    <TextView
+        android:padding="8dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#7A7A7A"
+        android:textSize="23sp"
+        android:text="عمل جيد ! حالتك الصحية تبدو أحسن كثيرا الأن سيتم تقديم علاج حرصا علي سلامتك يرجي أخذه لمدة 3 شهور من الأن أذا كان لديك حساسية ضد بعض الأدوية يرجي مراجعة الطبيب وإذا شعرت بتغير في الأعراض يمكنك بدء متابعة جديدة او إستشارة الطبيب إن لزم الأمر" />
+
+    <Button
+        android:padding="12dp"
+        android:id="@+id/Continue"
+        android:layout_width="163dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="26dp"
+        android:background="@drawable/btnedit"
+        android:text="المتابعة"
+        android:textAlignment="center"
+        android:textSize="16sp" />
+
+</LinearLayout>

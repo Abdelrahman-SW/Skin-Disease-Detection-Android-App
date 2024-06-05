@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/background"
+    android:padding="16dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_text_message" />
+
+    <TextView
+        android:padding="8dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#7A7A7A"
+        android:textSize="23sp"
+        android:text="حرصا علي سلامة الجميع هل تريد إرسال رسالة نصية جاهزة للأشخاص الذين كنت مخالط لهم تخبرهم أنك مشتبه في الإصابة بفيروس كورونا حتي يأخذوا الأجراءات اللازمة عن طريق إدخال أرقام هواتفهم فقط" />
+
+    <LinearLayout
+        android:layout_marginTop="26dp"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="16dp"
+            android:padding="12dp"
+            android:id="@+id/Skip"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/btnedit"
+            android:text="تخطي"
+            android:textAlignment="center"
+            android:textSize="16sp" />
+
+
+        <Button
+            android:layout_marginRight="8dp"
+            android:padding="12dp"
+            android:id="@+id/Continue"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/btnedit"
+            android:text="حسنا"
+            android:textAlignment="center"
+            android:textSize="16sp" />
+    </LinearLayout>
+</LinearLayout>

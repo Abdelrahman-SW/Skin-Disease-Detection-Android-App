@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.coronaviruse">
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the "MyLocation" functionality.
+    -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.SET_ALARM" />
+    <uses-permission android:name="android.permission.REQUEST_COMPANION_RUN_IN_BACKGROUND" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <uses-feature android:name="android.hardware.location.gps" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".Activities.app"
+        android:icon="@drawable/ic_skin_rash"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CoronaViruse">
+        <activity
+            android:name=".Activities.MoreAboutDisease"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.SkinResultActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.takeOrUpload"
+            android:exported="false"
+            android:theme="@style/main" />
+        <activity
+            android:name=".DoctorActivity"
+            android:parentActivityName=".Activities.Main"
+            android:theme="@style/main" />
+        <activity
+            android:name=".Activities.Male_femaleActivity"
+            android:noHistory="true" />
+        <activity
+            android:name=".AgeActivity"
+            android:noHistory="true" />
+        <activity android:name=".SendSmsActivity" />
+        <activity android:name=".SmsActivity" />
+        <activity android:name=".AfterRecover" />
+        <activity android:name=".VitmainsActivity" />
+        <activity
+            android:name=".NewResultActivity"
+            android:theme="@style/main" />
+        <activity
+            android:name=".LastRecordsActivity"
+            android:theme="@style/main" />
+        <activity android:name=".MedicalActivity" />
+
+        <receiver
+            android:name=".MyBroadCast"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+                <!-- For HTC devices -->
+                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".IntroActivity"
+            android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".New_Medical_follow_up" />
+        <activity android:name=".Medical_follow_up" />
+        <activity android:name=".Reminder_Activity" />
+        <activity
+            android:name=".Medicines_Activity"
+            android:theme="@style/main" />
+        <activity android:name=".IntroToProtocolActivity" />
+        <activity
+            android:name=".SplashActivity"
+            android:noHistory="true"
+            android:theme="@style/splash" />
+        <activity
+            android:name=".FindNearbyHospitals.FindHospitals"
+            android:theme="@style/main" />
+        <activity android:name=".Activities.LoadingResult" />
+        <activity android:name=".Activities.ResultActivity" />
+        <activity android:name=".Activities.IntroToQuestionsActivity" />
+        <activity android:name=".Activities.CodeVerification" />
+        <activity
+            android:name=".CoronaTracker.EachCountryDataActivity"
+            android:theme="@style/main" />
+        <activity
+            android:name=".CoronaTracker.SelectCountryActivity"
+            android:theme="@style/main" />
+        <activity
+            android:name=".CoronaTracker.WorldDataActivity"
+            android:theme="@style/main" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".Activities.MapsActivity"
+            android:label="@string/title_activity_maps" />
+        <activity android:name=".Activities.GetLocation" />
+        <activity android:name=".Activities.Register" />
+        <activity
+            android:name=".Activities.Login"
+            android:launchMode="singleInstance" />
+        <activity android:name=".Activities.QuestionsActivity" />
+        <activity
+            android:name=".Activities.Main"
+            android:theme="@style/main" />
+        <activity android:name=".Activities.GoodJop" />
+    </application>
+
+</manifest>

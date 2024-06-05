@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_margin="12dp"
+    app:cardElevation="20dp"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:clickable="true"
+    app:cardCornerRadius="16dp"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:layoutDirection="rtl"
+    android:focusable="true">
+
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="vertical"
+          android:background="@drawable/covid_hospital"
+          >
+        <LinearLayout
+            android:paddingRight="16dp"
+            android:paddingBottom="16dp"
+            android:paddingTop="16dp"
+            android:id="@+id/VisibleArea"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:visibility="visible">
+
+            <LinearLayout
+                android:paddingEnd="120dp"
+                android:id="@+id/titleLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/med1_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:text="ثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثالمستggggggggggشفى نور الشروق"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:paddingLeft="120dp"
+                android:id="@+id/vicinity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="العنوان : "
+                    android:textColor="@color/purple_500"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:id="@+id/vicinity_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:text="ثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثثالمستggggggggggشفى نور الشروق"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="8dp"
+                android:id="@+id/Repeat_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/Repeat_header"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text="الحالة"
+                    android:textColor="@color/purple_500"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:id="@+id/status"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="20dp"
+                    android:fontFamily="sans-serif"
+                    android:text="مفتوح"
+                    android:textColor="#045B78"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="12dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="التقييم"
+                    android:textColor="@color/purple_500"
+                    android:textSize="17sp" />
+
+                <ImageView
+                    android:id="@+id/star_1"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="22dp"
+                    android:rating="5"
+                    android:src="@drawable/ic_star__1_" />
+                <ImageView
+                    android:id="@+id/star_2"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/ic_star__1_"
+                    android:layout_marginRight="4dp"
+                    android:layout_width="20dp"
+                    android:rating="5"
+                    android:layout_height="20dp"/>
+                <ImageView
+                    android:id="@+id/star_3"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/ic_star__1_"
+                    android:layout_marginRight="2dp"
+                    android:layout_width="20dp"
+                    android:rating="5"
+                    android:layout_height="20dp"/>
+                <ImageView
+                    android:id="@+id/star_4"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/ic_star__1_"
+                    android:layout_marginRight="4dp"
+                    android:layout_width="20dp"
+                    android:rating="5"
+                    android:layout_height="20dp"/>
+                <ImageView
+                    android:id="@+id/star_5"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/ic_star__1_"
+                    android:layout_marginRight="4dp"
+                    android:layout_width="20dp"
+                    android:rating="5"
+                    android:layout_height="20dp"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+      </LinearLayout>
+</androidx.cardview.widget.CardView>

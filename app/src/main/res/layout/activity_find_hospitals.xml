@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/ic_homebg"
+    android:orientation="vertical"
+     android:layout_height="match_parent" android:layout_width="match_parent">
+
+    <TextView
+        android:paddingTop="16dp"
+        android:id="@+id/hos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/ic_testbanner"
+        android:gravity="center|start"
+        android:layout_marginTop="16dp"
+        android:paddingRight="8dp"
+        android:text="المستشفيات القريبة"
+        android:paddingLeft="16dp"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:paddingEnd="22dp"
+        android:paddingStart="22dp"
+        android:paddingTop="32dp"
+        android:clipToPadding="false"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/MyRecyclerView"
+        tools:listitem="@layout/hos_item"
+        android:paddingBottom="70dp"
+        />
+</LinearLayout>

@@ -1,0 +1,7 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="horizontal" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Spinner android:id="@+id/sp_type" android:background="@android:drawable/editbox_background" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"/>
+        <Button android:id="@+id/bt_find" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Find"/>
+    </LinearLayout>
+    <fragment android:name="com.google.android.gms.maps.SupportMapFragment" android:id="@+id/google_map" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</LinearLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    tools:context=".Activities.Login">
+
+    <ImageView
+        android:layout_marginTop="120dp"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:src="@drawable/login_skin"/>
+
+     <LinearLayout
+         android:layout_marginTop="20dp"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:gravity="center"
+         android:orientation="vertical">
+
+
+    <EditText
+        android:inputType="textEmailAddress"
+        android:imeOptions="actionNext"
+        android:drawablePadding="4dp"
+        android:id="@+id/email"
+        android:paddingRight="16dp"
+        android:paddingLeft="16dp"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp"
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:drawableStart="@drawable/ic_baseline_email_24"
+        android:background="@drawable/edit_shap"
+        android:hint="البريد الألكتروني" />
+
+         <EditText
+             android:imeOptions="actionDone"
+             android:id="@+id/password"
+             android:paddingRight="16dp"
+             android:paddingLeft="16dp"
+             android:paddingTop="4dp"
+             android:paddingBottom="4dp"
+             android:inputType="textPassword"
+             android:layout_marginTop="18dp"
+             android:layout_width="260dp"
+             android:layout_height="50dp"
+             android:gravity="center"
+             android:drawableStart="@drawable/ic_baseline_lock_24"
+             android:background="@drawable/edit_shap"
+             android:hint="كلمة المرور" />
+
+         <Button
+             android:id="@+id/Login"
+             android:layout_width="163dp"
+             android:layout_height="wrap_content"
+             android:layout_gravity="center_horizontal"
+             android:layout_marginTop="26dp"
+             android:background="@drawable/btnedit"
+             android:text="تسجيل الدخول"
+             android:textAlignment="center"
+             android:textSize="16sp" />
+
+         <TextView
+             android:id="@+id/Register"
+             android:textAlignment="center"
+             android:layout_marginTop="60dp"
+             android:textColor="#000C51"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:textSize="17sp"
+             android:text="ليس لديك حساب قم بإنشاء واحد الأن" />
+
+
+
+     </LinearLayout>
+
+</LinearLayout>

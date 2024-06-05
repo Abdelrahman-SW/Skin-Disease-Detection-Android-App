@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Activities.Login">
+
+    <ImageView
+        android:layout_marginTop="120dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/ic_sms"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="يرجي إدخال الكود الخاص بك"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <EditText
+        android:layout_marginTop="12dp"
+        android:drawablePadding="4dp"
+        android:id="@+id/CodeText"
+        android:paddingRight="16dp"
+        android:paddingLeft="16dp"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp"
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:background="@drawable/edit_shap"
+        android:hint="أدخل الكود" />
+
+    <Button
+        android:id="@+id/SendCode"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="22dp"
+        android:background="@drawable/btnedit"
+        android:text="تأكيد"
+        android:textAlignment="center"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/Register"
+        android:textAlignment="center"
+        android:layout_marginTop="60dp"
+        android:textColor="#000C51"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        android:text="إعادة إدخال رقم الهاتف ؟" />
+
+</LinearLayout>
